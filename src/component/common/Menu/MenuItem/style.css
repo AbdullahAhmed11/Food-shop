@@ -1,0 +1,64 @@
+.item {
+  width: 150px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 0.8rem 0.8rem 0.8rem;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.item img {
+  height: 130px;
+  object-fit: contain;
+  margin-top: -3.5rem;
+}
+.item-foot-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-foot-desc button {
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.item-head-desc {
+  text-align: left;
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.item-head-desc p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.item-head-desc {
+  text-align: left;
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-desc-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  flex: 1;
+}
+.item-desc-info {
+  font-size: 0.8rem;
+  color: #a0a0a0;
+}
+.foot-desc-price {
+  font-weight: 700;
+}
